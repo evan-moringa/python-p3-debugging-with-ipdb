@@ -3,5 +3,8 @@
 import ipdb
 
 def plus_two(num):
-    num + 2
+    num = 5
+   num = num + 2
+    
+    global num
     return num
